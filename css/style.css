@@ -17,12 +17,11 @@ html {
 }
 
 body {
-  font-family: "Roboto", "Source Sans Pro", Arial, sans-serif;
+  font-family: "Raleway", "Roboto", "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.8;
-  color: #777777;
-  color: #7f7f7f;
+  color: #0A0D23;
   background: #fff;
   height: 100%;
   position: relative;
@@ -44,14 +43,14 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #131528;
-  font-family: "Roboto", "Source Sans Pro", Arial, sans-serif;
+  color: #0A0D23;
+  font-family: "Raleway", "Roboto", "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
 }
 
 h4 {
   color: #FFF;
-  font-family: "Roboto", "Source Sans Pro", Arial, sans-serif;
+  font-family: "Raleway", "Roboto", "Source Sans Pro", Arial, sans-serif;
   font-size: 3.3em;
   font-weight: 400;
 }
@@ -59,7 +58,7 @@ h4 {
 h1 {
   font-size: 2.3em;
   font-weight: 300;
-  color: #444;
+  color: #0A0D23;
   text-transform: none; /*edited*/
   position: relative;
   display: block;
@@ -95,7 +94,7 @@ strong {
 
 .darkcustom {
   height: 50px;
-  background: #131528;
+  background: #0A0D23;
 }
 
 #strongblue {
@@ -337,7 +336,7 @@ strong {
 .section-heading h3 {
   font-weight: 300;
   line-height: 1.5;
-  color: #929292;
+  color: #0A0D23;
   font-size: 20px;
 }
 @media screen and (max-width: 768px) {
@@ -877,6 +876,14 @@ strong {
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
+}
+
+.btn.btn-secondary {
+  background: Transparent;
+  border: 2px solid transparent !important;
+  color: #637CEA;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .social {
