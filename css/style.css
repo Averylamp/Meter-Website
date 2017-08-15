@@ -488,12 +488,16 @@ strong {
 #fh5co-pricing .price-box.popular .popular-text {
   top: 0;
   left: 50%;
-  margin-left: -54px;
+  margin-left: -70px;
   margin-top: -2em;
   position: absolute;
   padding: 4px 20px;
   background: #637CEA;
   color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Avenir";
+  letter-spacing: 1px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -1254,6 +1258,19 @@ strong {
   color:#FFF;
   font-size:1.8em;
 }
+#skylineimg {
+  display:table-cell;
+  vertical-align:bottom;
+  margin-left:0;
+  width:100%;
+}
+#skylineios {
+  display:table-cell;
+  vertical-align:bottom;
+  margin-left:0;
+  width:100%;
+  display:none;
+}
 
 @media screen and (max-width: 480px) {
   #indriveway {
@@ -1262,6 +1279,12 @@ strong {
   #passive {
     font-size:1.8em;
     padding-bottom:15px;
+  }
+  #skylineimg {
+    display: none;
+  }
+  #skylineios {
+    display:table-cell;
   }
 }
 
