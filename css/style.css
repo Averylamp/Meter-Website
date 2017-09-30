@@ -1270,6 +1270,12 @@ strong {
   width:100%;
   display:none;
 }
+#skylinelarge{
+  vertical-align:bottom;
+  margin-left:0;
+  width:100%;
+  display:none;
+}
 
 @media screen and (max-width: 480px) {
   #indriveway {
@@ -1285,6 +1291,9 @@ strong {
   #skylineios {
     display:table-cell;
   }
+  #skylinelarge {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 860px) {
@@ -1294,6 +1303,18 @@ strong {
   }
   #blueintro {
     padding-top: 5vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #skylineimg {
+    display: none;
+  }
+  #skylineios {
+    display:none;
+  }
+  #skylinelarge {
+    display: table-cell;
   }
 }
 
